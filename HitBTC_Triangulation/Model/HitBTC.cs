@@ -72,7 +72,7 @@ namespace HitBTC_Triangulation.Model
             }
         }
 
-        public HitBTCClient(string startCoin, decimal waitingTime  = 0, string key = "74e9b6746389500ef873e87ce2478beb", string sign = "06eff83f9162e69f41fc87555c80527e", decimal feeSell = 0.00054m, decimal feeBuy = 0.00054m) : base(startCoin: startCoin, feeBuy: feeBuy, feeSell: feeSell)
+        public HitBTCClient(string startCoin, decimal waitingTime  = 0, string key = "xxx", string sign = "xxx", decimal feeSell = 0.00054m, decimal feeBuy = 0.00054m) : base(startCoin: startCoin, feeBuy: feeBuy, feeSell: feeSell)
         {
             _hitbtcRestClient = new HitRestApi(new HitConfig
             {
