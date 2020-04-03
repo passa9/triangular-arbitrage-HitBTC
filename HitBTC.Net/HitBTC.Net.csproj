@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <Version>1.0.8-beta</Version>
+    <Authors>Konstantin Ivanov</Authors>
+    <Company>Konstantin Ivanov</Company>
+    <Description>The simple API wrapper for world-wide crypto exchange HitBTC (based on API v2.0)</Description>
+    <PackageTags>hitbtc api exchange c# .net crypto</PackageTags>
+    <PackageProjectUrl>https://github.com/Exellion/HitBTC.Net</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Exellion/HitBTC.Net</RepositoryUrl>
+    <PackageReleaseNotes>- fix error serialization</PackageReleaseNotes>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <AssemblyVersion>1.0.8.0</AssemblyVersion>
+    <FileVersion>1.0.8.0</FileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="WebSocket4Net" Version="0.15.2" />
+  </ItemGroup>
+</Project>
