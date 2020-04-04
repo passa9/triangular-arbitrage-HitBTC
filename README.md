@@ -1,5 +1,5 @@
-# HitBTC_Triangulation
-Triangulation between more than 700 pairs on the HitBTC exchange.
+# Triangular arbitrage HitBTC
+Triangular arbitrage between more than 700 pairs on the HitBTC exchange.
 
 Example input:
  - Start coin: BTC
